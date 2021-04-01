@@ -21,10 +21,13 @@ const charlie = {
   age: 8
 
 }
-/*console.log(alice.firstName, alice.lastName, alice.age)
+/*
+console.log(alice.firstName, alice.lastName, alice.age)
 console.log(bob.firstName, bob.lastName, bob.age)
-console.log(charlie.firstName, charlie.lastName, charlie.age)*/
+console.log(charlie.firstName, charlie.lastName, charlie.age)
+*/
 
+/*
 const printInfo = (person) =>{
   console.log(`firstname: ${person.firstName}`)
   console.log(`last name: ${person.lastName}`)
@@ -34,3 +37,15 @@ const printInfo = (person) =>{
 printInfo(alice)
 printInfo(bob)
 printInfo(charlie)
+*/
+
+
+const canvote = (person) => {
+  if (person.age > 18)
+  console.log(true)
+  else
+  console.log(false)
+}
+canvote(alice)
+canvote(bob)
+canvote(charlie)
